@@ -1,0 +1,40 @@
+.section__title_special {
+  margin-bottom: 60px;
+}
+
+.special-cards {
+  padding: 0 135px;
+}
+
+.special-cards__list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 25px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+@media screen and (max-width: 1050px) {
+    .special-cards {
+        padding: 0 70px;
+      }
+}
+
+@media screen and (max-width: 880px) {
+    .special-cards {
+        padding: 0 35px;
+      }
+}
+
+@media screen and (max-width: 650px) {
+    .special-cards {
+        padding: 0 5px;
+      }
+
+      .special-cards__list {
+        grid-template-columns: 1fr;
+       
+        
+      }
+}

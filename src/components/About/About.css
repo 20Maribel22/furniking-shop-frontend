@@ -1,0 +1,15 @@
+.about {
+  padding: 30px 135px 70px 135px;
+}
+
+@media screen and (max-width: 900px) {
+  .about {
+    padding: 70px;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .about {
+    padding: 35px;
+  }
+}

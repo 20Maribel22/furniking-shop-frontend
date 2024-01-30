@@ -1,0 +1,35 @@
+.baner {
+  width: 100%;
+  height: auto;
+  background: linear-gradient(
+    103.4deg,
+    rgba(241, 250, 255, 0.88) 0.89%,
+    #f1faff 101.61%
+  );
+  backdrop-filter: blur(77.5px);
+  border-radius: 1px;
+  margin: 12px 0 0 11px;
+  overflow: hidden;
+}
+
+.baner__inner {
+  white-space: nowrap;
+  transition: translate ease-in-out 2s;
+}
+
+.baner-card__list {
+  list-style: none;
+  width: 98px;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 58px 39px 0 0;
+}
+
+@media screen and (max-width: 950px) {
+  .baner-card__list {
+    display: none;
+  }
+}

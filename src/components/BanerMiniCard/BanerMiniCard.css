@@ -1,0 +1,46 @@
+.baner-card {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.6) 0%,
+    rgba(255, 255, 255, 0.56) 100%
+  );
+  border: 2px solid #ffffff;
+  border-radius: 8px;
+  margin: 0 0 25px 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.baner-card__img_min {
+  width: 50px;
+  height: 45px;
+  object-fit: contain;
+}
+
+.baner-card__price {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 7px;
+  width: 16px;
+  height: 6px;
+  color: #7ac751;
+  margin: 6px 0 0 0;
+  padding: 0;
+}
+
+.baner-card__name {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 7px;
+  text-align: center;
+  color: #555555;
+  margin: 7px 0 10px 0;
+  padding: 0;
+  width: 60px;
+  height: 10px;
+}

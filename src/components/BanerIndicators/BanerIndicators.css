@@ -1,0 +1,44 @@
+.baner-indicators {
+  position: absolute;
+  transform: translate(-50%);
+  left: 50%;
+  bottom: 1.5em;
+  z-index: 2;
+}
+
+.baner-indicator__item {
+  width: 12px;
+  height: 12px;
+  border: none;
+  background: rgba(122, 199, 81, 0.29);
+  margin-right: 15px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.active {
+  width: 24px;
+  height: 9px;
+  background: #7ac751;
+  border-radius: 28%;
+}
+
+@media screen and (max-width: 650px) {
+  .baner-indicators {
+    position: absolute;
+    transform: translate(-50%);
+    left: 50%;
+    bottom: 0.5em;
+  }
+
+  .baner-indicator__item {
+    width: 8px;
+    height: 8px;
+    margin-right: 10px;
+  }
+
+  .active {
+    width: 12px;
+    height: 8px;
+  }
+}

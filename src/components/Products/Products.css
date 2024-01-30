@@ -1,0 +1,31 @@
+.trand-cards__nav-list_pro {
+  width: 769px;
+}
+
+.products {
+  padding: 0 135px 120px;
+}
+
+@media screen and (max-width: 950px) {
+  .products {
+    padding: 0 70px 120px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .trand-cards__nav-list_pro {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .products {
+    padding: 0 35px 120px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .products {
+    padding: 0 5px 120px;
+  }
+}

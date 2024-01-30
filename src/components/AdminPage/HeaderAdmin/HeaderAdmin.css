@@ -1,0 +1,15 @@
+.header__exit-button {
+  position: absolute;
+  right: 10px;
+  top: 15px;
+  background-color: #c9c7c7;
+  border: none;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  padding: 2px;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+}

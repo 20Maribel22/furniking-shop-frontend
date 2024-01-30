@@ -1,0 +1,54 @@
+.feedback-card {
+  padding: 0 135px 115px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.feedback-card__btn {
+  border: none;
+  background-color: inherit;
+  width: 76px;
+  height: 76px;
+  cursor: pointer;
+  position: absolute;
+  top: calc(50% - 25px);
+  right: 0;
+}
+
+.feedback-card__btn_left {
+  left: 0;
+  transform: rotate(-180deg);
+}
+
+.slide__inner {
+  white-space: nowrap;
+  transition: ease 1s;
+}
+
+.slide {
+  position: relative;
+  padding-top: 50px;
+  margin: 0 auto;
+  overflow: hidden;
+  width: 100%;
+}
+
+@media screen and (max-width: 1050px) {
+  .feedback-card {
+    padding: 0 70px 115px;
+  }
+}
+
+@media screen and (max-width: 880px) {
+  .feedback-card {
+    padding: 0 35px 115px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .feedback-card {
+    padding: 0 5px 70px 5px;
+  }
+}

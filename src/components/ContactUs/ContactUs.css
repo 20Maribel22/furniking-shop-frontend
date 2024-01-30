@@ -1,0 +1,34 @@
+.contact-card {
+  padding: 30px 135px 70px 135px;
+}
+
+.contact-card__list {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #555555;
+  list-style: none;
+}
+
+.contact-card__text {
+  margin: 10px;
+  padding: 0;
+}
+
+.contact-card__email {
+  color: #7ac751;
+}
+
+@media screen and (max-width: 900px) {
+  .contact-card {
+    padding: 70px;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .contact-card {
+    padding: 35px;
+  }
+}

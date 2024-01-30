@@ -1,0 +1,119 @@
+.slide__item {
+  display: inline-block;
+  width: 100%;
+  height: auto;
+  position: relative;
+  background: #f8fafb;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+  user-select: none;
+}
+
+.feedback-card__img {
+  width: 88px;
+  height: 88px;
+  border-radius: 50%;
+  object-fit: cover;
+  position: absolute;
+  top: -45px;
+  right: 45%;
+}
+
+.feedback-card__text {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  text-align: center;
+  letter-spacing: 0.005em;
+  color: #515151;
+  width: 566px;
+  height: 250px;
+  white-space: normal;
+  margin: 0 auto;
+  padding: 50px;
+  overflow: hidden;
+}
+
+.feedback-card__title {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 120%;
+  text-align: center;
+  letter-spacing: 0.005em;
+  color: #555555;
+  margin-bottom: 8px;
+}
+
+.feedback-card__info {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 125%;
+  text-align: center;
+  letter-spacing: 0.005em;
+  color: #515151;
+  margin-bottom: 47px;
+}
+
+.section__title_feedback {
+  margin-bottom: 80px;
+}
+
+@media screen and (max-width: 880px) {
+  .feedback-card__title {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .feedback-card__title {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .feedback-card__text {
+    width: 250px;
+    font-size: 14px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    line-height: 1.3em;
+    height: 3.9em;
+  }
+
+  .feedback-card__title {
+    font-size: 12px;
+    margin-top: 10px;
+  }
+
+  .feedback-card__img {
+    top: -50px;
+    right: 35%;
+  }
+  .section__title_feedback {
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .feedback-card__text {
+    width: 250px;
+    font-size: 12px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    line-height: 1.3em;
+    height: 3.9em;
+  }
+  .section__title_feedback {
+    margin-bottom: 0;
+  }
+}

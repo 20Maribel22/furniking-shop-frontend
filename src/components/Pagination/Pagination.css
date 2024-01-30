@@ -1,0 +1,46 @@
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 64px;
+}
+
+.pagination__btn {
+  cursor: pointer;
+  margin-right: 10px;
+  border: none;
+  background-image: url("../../images/Circle1.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 24px;
+  height: 24px;
+  background-color: inherit;
+}
+
+.pagination__btn-number {
+  text-decoration: none;
+  display: none;
+}
+
+.pagination__btn-active {
+  cursor: pointer;
+  margin-right: 10px;
+  border: none;
+  background-image: url("../../images/Circle.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 24px;
+  height: 24px;
+  background-color: inherit;
+}
+
+.pagination__link-active {
+  cursor: pointer;
+  margin-right: 10px;
+  text-decoration: none;
+  background-image: url("../../images/Circle.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 24px;
+  height: 24px;
+}

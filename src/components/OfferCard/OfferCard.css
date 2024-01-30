@@ -1,0 +1,163 @@
+.offer-card {
+  position: relative;
+}
+
+.offer-card__description {
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 29px 0 0 31px;
+}
+
+.offer-card__title {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  color: #555555;
+  margin: 0;
+  padding: 0;
+}
+
+.offer-card__text {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  color: #7ac751;
+  margin: 0;
+  padding: 0;
+}
+
+.offer-card__link {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  color: #757575;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.offer-card__title_small {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 28px;
+}
+
+.offer-card__img {
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+}
+
+.offer-card__img_small {
+  width: 100%;
+  max-height: 306px;
+  box-sizing: border-box;
+}
+
+.offer-card:last-child {
+  margin-top: 8px;
+}
+
+@media screen and (max-width: 1880px) {
+  .offer-card__img_small {
+    max-height: 294px;
+  }
+}
+
+@media screen and (max-width: 1780px) {
+  .offer-card__img_small {
+    max-height: 276px;
+  }
+}
+
+@media screen and (max-width: 1720px) {
+  .offer-card__img_small {
+    max-height: 256px;
+  }
+}
+
+@media screen and (max-width: 1620px) {
+  .offer-card__img_small {
+    max-height: 246px;
+  }
+}
+
+@media screen and (max-width: 1520px) {
+  .offer-card__img_small {
+    max-height: 226px;
+  }
+}
+
+@media screen and (max-width: 1450px) {
+  .offer-card__img_small {
+    max-height: 216px;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .offer-card__img_small {
+    max-height: 200px;
+  }
+}
+
+@media screen and (max-width: 1350px) {
+  .offer-card__img_small {
+    max-height: 190px;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .offer-card__img_small {
+    max-height: 186px;
+  }
+}
+
+@media screen and (max-width: 1290px) {
+  .offer-card__img_small {
+    max-height: 184px;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .offer-card__img_small {
+    height: 166px;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .offer-card__img_small {
+    height: 159px;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .offer-card__img_small {
+    height: 133px;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .offer-card__img_small {
+    height: 123px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .offer-card__img_small {
+    height: 166px;
+  }
+}

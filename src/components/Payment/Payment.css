@@ -1,0 +1,50 @@
+.payment {
+  padding: 0 135px;
+}
+
+.payment__title {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 32px;
+  color: #555555;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.payment__list {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #555555;
+  padding: 0 40px;
+}
+
+.payment__link {
+  list-style: none;
+  margin: 30px 0;
+}
+
+@media screen and (max-width: 990px) {
+  .payment {
+    padding: 0 70px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .payment {
+    padding: 0 35px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .payment {
+    padding: 0 5px;
+  }
+  .payment__title {
+    font-size: 20px;
+  }
+}

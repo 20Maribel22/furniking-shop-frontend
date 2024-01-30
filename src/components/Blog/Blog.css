@@ -1,0 +1,15 @@
+.blog {
+  padding: 30px 135px 70px 135px;
+}
+
+@media screen and (max-width: 900px) {
+  .blog {
+    padding: 70px;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .blog {
+    padding: 35px;
+  }
+}

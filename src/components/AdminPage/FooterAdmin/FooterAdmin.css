@@ -1,0 +1,35 @@
+.footer__admin {
+  padding: 20px;
+}
+
+.footer__img_admin {
+  width: 60px;
+  height: 60px;
+}
+
+.footer__container-nav_admin {
+  padding: 40px;
+}
+
+.footer__container-admin {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__list-admin {
+  list-style: none;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 32px;
+  color: #555555;
+  width: 318px;
+
+  margin-top: 10px;
+  padding: 0 40px 0 0;
+}
+
+.footer__num:nth-child(2) {
+  margin-top: 20px;
+}

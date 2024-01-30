@@ -1,0 +1,249 @@
+.drawer {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 3;
+  padding: 0;
+  margin: 0;
+  transition: transform 0.8s ease-in-out;
+}
+
+.drawer__container {
+  position: absolute;
+  right: 0;
+  width: 485px;
+  height: 100%;
+  background-color: #fff;
+  box-shadow: -10px 4px 24px rgba(0, 0, 0, 0.1);
+  padding: 30px 10px 0 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.drawer__title {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: 0.005em;
+  color: #555555;
+  margin: 20px 0 20px 0;
+}
+
+.drawer__item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  margin: 20px;
+  padding: 10px;
+}
+
+.drawer__item-container {
+  flex: 1;
+  overflow: auto;
+  margin-bottom: 40px;
+}
+
+.drawer__main {
+  display: flex;
+  align-items: center;
+}
+
+.drawer__img {
+  width: 70px;
+  height: 70px;
+  margin-right: 20px;
+}
+
+.drawer__container-text {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 130%;
+  letter-spacing: 0.008em;
+  color: rgba(117, 117, 117, 0.71);
+  margin-right: 20px;
+}
+
+.drawer__text {
+  margin-bottom: 5px;
+}
+
+.drawer__btn {
+  width: 24px;
+  height: 24px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background: #f8fafb;
+  color: #757575;
+  cursor: pointer;
+  opacity: 0.5;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.drawer__btn:hover {
+  opacity: 1;
+}
+
+.drawer__btn-main {
+  position: absolute;
+  top: 20px;
+  right: 10px;
+}
+
+.drawer__info {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.drawer__line {
+  flex: 1;
+  border-bottom: 1px dashed #ccc;
+  position: relative;
+  top: -4px;
+  margin: 0 7px;
+}
+
+.drawer__info-text {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 130%;
+  letter-spacing: 0.008em;
+  color: rgba(117, 117, 117, 0.71);
+}
+
+.drawer__info-btn {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  background: #7ac751;
+  border-radius: 5px;
+  border: none;
+  width: 149px;
+  height: 40px;
+  cursor: pointer;
+  transition: all 0.5 ease-out;
+  align-self: center;
+  margin: 30px 0;
+}
+
+.drawer__info-btn:hover {
+  opacity: 0.6;
+}
+
+.drawer__message {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 19px;
+  align-self: center;
+  color: #ee3465;
+}
+
+.drawer__input-container {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.drawer__input {
+  width: 80px;
+  height: 24px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background: #f8fafb;
+  color: #757575;
+  cursor: pointer;
+  text-align: center;
+}
+
+.drawer__btn_up {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.drawer__btn_down {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+@media screen and (max-width: 650px) {
+  .drawer__container {
+    position: absolute;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    box-shadow: -10px 4px 24px rgba(0, 0, 0, 0.1);
+    padding: 30px 10px 0 30px;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .drawer__info-btn {
+    margin: 30px 0 60px 0;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .drawer__container {
+    padding: 0;
+  }
+
+  .drawer {
+    width: 280px;
+  }
+
+  .drawer__input {
+    width: 40px;
+    height: 20px;
+  }
+
+  .drawer__btn {
+    width: 20px;
+    height: 20px;
+    border-radius: 2px;
+  }
+
+  .drawer__container-text {
+    font-size: 10px;
+    line-height: 100%;
+    margin-right: 5px;
+  }
+
+  .drawer__line {
+    width: 50px;
+    display: flex;
+  }
+
+  .drawer__info {
+    margin: 20px;
+  }
+
+  .drawer__info-btn {
+    margin: 80px 0;
+  }
+
+  .drawer__title {
+    font-size: 14px;
+    margin: 20px;
+  }
+}

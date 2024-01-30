@@ -1,0 +1,59 @@
+.delivery {
+  padding: 30px 135px 70px 135px;
+}
+
+.delivery__title {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 32px;
+  color: #555555;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.delivery__info {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #555555;
+  margin: 30px 0;
+}
+
+@media screen and (max-width: 1050px) {
+  .delivery {
+    padding: 30px 70px 70px 70px;
+  }
+}
+
+@media screen and (max-width: 880px) {
+  .delivery {
+    padding: 30px 35px 70px 35px;
+  }
+  .delivery__title {
+    font-size: 18px;
+    line-height: 20px;
+  }
+
+  .delivery__info {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .delivery {
+    padding: 30px 5px 70px 5px;
+  }
+
+  .delivery__title {
+    font-size: 16px;
+  }
+
+  .delivery__info {
+    font-size: 12px;
+  }
+}

@@ -1,70 +1,108 @@
-# Getting Started with Create React App
+# Проект "Furniking-shop"
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+ Добро пожаловать в "Furniking-shop",онлайн-магазин мебели! Это проект, который был создан в рамках самообразования и закрепления полученных знаний.
 
-## Available Scripts
+ #### Для запуска использовать команды
 
-In the project directory, you can run:
+ npm run start
 
-### `npm start`
+## Цель проекта
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+ Целью проекта было закрепление полученных знаний по React.js, а также развитие практических навыков веб-разработки. Создание онлайн магазина мебели позволило применить изученные концепции React.js на практике и лучше понять принципы разработки веб-приложений.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Технологии
 
-### `npm test`
+ Фронтенд для этого проекта построен с использованием React JS с использованием функционального подхода. Для управления состоянием и получения данных используются контекст и REST API. Разметка семантическая и следует соглашениям по именованию БЭМ. Верстка выполнена с использованием Grid Flex, и сайт полностью адаптивен.Это обеспечивает высокое качество изображений при любом масштабировании и быструю загрузку страницы.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Функциональность
 
-### `npm run build`
+ Сайт позволяет пользователям просматривать мебельные товары, разделенные на категории. Для поиска конкретных товаров доступна функция поиска. Кроме того, сайт позволяет пользователям приблизить изображения товаров для    более детального просмотра. Это многофункциональный сайт с несколькими страницами, на которых пользователи могут читать и оставлять отзывы, добавлять товары в список пожеланий и в корзину покупок. Чтобы оформить заказ, пользователь должен зарегистрироваться, после чего заказ можно разместить.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+#### Формат изображений
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+ Изображения, используемые на сайте, представлены в форматах SVG и PNG.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+#### Мобильная совместимость
 
-### `npm run eject`
+ Сайт адаптирован для просмотра на мобильных устройствах, что обеспечивает удобство использования сайта пользователями с различными устройствами и экранами.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+#### Личный кабинет
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+ Наличие личного кабинета позволяет пользователям хранить информацию о своих заказах, отмечать понравившиеся товары и управлять своими данными. Это делает сайт более удобным для повторных покупок и удержания пользователей.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+#### Функционал отзывов
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+ Сайт предоставляет возможность пользователям оставлять отзывы о товарах, что помогает другим пользователям принимать решение о покупке на основе реальных отзывов.
 
-## Learn More
+#### Безопасность
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+ При оформлении заказа и регистрации пользователей на сайте используются средства шифрования, что обеспечивает защиту персональных данных пользователей и безопасность при совершении покупок.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+#### Интеграция с социальными сетями
 
-### Code Splitting
+ Сайт предоставляет возможность пользователям делиться понравившимися товарами с друзьями через социальные сети, что способствует увеличению трафика на сайте и привлечению новых пользователей.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Бэкенд
+ Бэкенд является серверной частью интернет-магазина. Он обрабатывает запросы, поступающие от фронтенда, взаимодействует с базой данных для получения информации о товарах и пользователях, обеспечивает работу корзины покупок, обработку платежей и другие функции, необходимые для функционирования интернет-магазина.
 
-### Analyzing the Bundle Size
+ Бекенд для этого проекта написан на express.js, база данных MongoDB.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+ [1]: https://github.com/20maribel22/react-mesto-auth.git "Бэкенд"
 
-### Making a Progressive Web App
+## Административная панель
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+ Сайт, в дополнение к основному интерфейсу, также содержит административную панель. Администратор получает доступ к ней при помощи уникального логина и пароля, хранящихся в базе данных. По входу в систему, администратор перенаправляется на страницу админки, где доступен общий функционал и правила управления. В меню администратора находятся разделы для управления заказами, товарами и пользователями. Каждая страница содержит табличные данные с возможностью добавления, редактирования и удаления товаров, а также быстрый поиск по необходимым товарам. Для безопасности сайта,административная панель скрыта от пользователей.
 
-### Advanced Configuration
+ Для ознакомления с функциональностью предоставлены скриншоты:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+ ###### Перенаправление на главную страницу сайта
 
-### Deployment
+  ![Главная страница сайта](./public/image/photo/admin/вход.png "Перенаправление на главную страницу сайта после авторизации")
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+ ###### Перенаправление на главную страницу администратора
 
-### `npm run build` fails to minify
+   Перенаправление на главную страницу администратора происходит по клику по той же иконке,что и при входе в личный кабинет пользователя.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+   ![Главная страница администратора](./public/image/photo/admin/главная%20страница.png "Правила для администратора")
+
+###### Выгрузка всех товаров
+
+   ![Список товаров](./public/image/photo/admin/все%20товары.png "Выгрузка всех товаров,где можно удалить,обновить товар")
+
+   ![Список товаров](./public/image/photo/admin/все%20товары1.png "Выгрузка всех товаров,где можно удалить,обновить товар(продолжение)")
+
+  ###### Добавление нового товара
+
+   По клику на кнопку "add product" появляется форма для заполнения полей,которая поволяет добавить новый товар.
+
+   ![Форма заполнения](./public/image/photo/admin/добавление%20товара.png "Добавление нового товара")
+
+   ###### Поиск товара
+
+   ![Поиск](./public/image/photo/admin/поиск%20.png "Поиск товара")
+
+   ![Поиск](./public/image/photo/admin/поиск1.png "Поиск товара(продолжение)")
+
+   ###### Редактирование товара
+
+   Редактирование товара происходит на отдельной странице,где можно детально просмотреть всю информацию.
+
+   ![Редактирование](./public/image/photo/admin/обновление%20товара.png "Редактирование товара")
+
+   ###### Список пользователей
+
+   Список пользователей может понадобиться для рассылки необходимой рекламы,акций и т.д
+
+   ![Список пользователей](./public/image/photo/admin/пользователи.png "Список пользователей")
+
+  ###### Список заказов
+
+   Список заказов,одна из основновных страниц для администратора,где указана вся нужная информация,о заказе,его стоимости ,дате заказа и пользователе.
+
+   ![Список заказов](./public/image/photo/admin/заказы.png "Список заказов")
+
+## Заключение
+
+ Этот проект стал отличной возможностью для практического применения полученных знаний по React.js. Он позволил глубже понять принципы создания современных веб-приложений и усовершенствовать навыки разработки.
+
+ Важно отметить, что интерфейс сайта создан без использования сторонних библиотек и легко поддается изменению и обновлению. В связи с этим, предоставленный функционал является иллюстративным и предназначен для демонстрации возможностей, а не для реального использования. Несмотря на это, возможны различные правки и обновления в соответствии с требованиями заказчика

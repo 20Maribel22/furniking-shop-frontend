@@ -1,0 +1,31 @@
+.favorite {
+  padding: 70px 135px 70px 135px;
+}
+
+.favorite__btn {
+  position: absolute;
+  right: 0;
+  top: 10px;
+  width: 44px;
+  height: 20px;
+  border: none;
+  background-color: inherit;
+}
+
+@media screen and (max-width: 1280px) {
+  .favorite {
+    padding: 70px;
+  }
+}
+
+@media screen and (max-width: 880px) {
+  .favorite {
+    padding: 35px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .favorite {
+    padding: 5px;
+  }
+}

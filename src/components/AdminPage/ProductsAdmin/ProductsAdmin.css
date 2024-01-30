@@ -1,0 +1,72 @@
+.products-admin__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.products-admin__table {
+  font-family: "Rubik";
+  font-size: 14px;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.products-admin__list_order {
+  font-family: "Rubik";
+  font-size: 13px;
+}
+
+.products-admin__name {
+  background: #d1d0d0;
+  padding: 10px;
+  text-align: left;
+  color: white;
+  border-style: solid;
+  border-width: 0 1px 1px 0;
+  border-color: white;
+}
+
+.products-admin__name:first-child {
+  text-align: left;
+}
+
+.products-admin__list:first-child {
+  background: #d1d0d0;
+  padding: 10px;
+  text-align: left;
+}
+
+.products-admin__list {
+  border-style: solid;
+  border-width: 0 1px 1px 0;
+  border-color: white;
+  background: #e8e9eb;
+}
+
+.products-admin__link {
+  text-decoration: none;
+  color: red;
+}
+
+.products-admin__list_del {
+  cursor: pointer;
+}
+
+.products-admin__btn-create {
+  margin: 20px;
+  padding: 5px;
+  background-color: #7ac751;
+  border-color: #7ac751;
+  border-radius: 5px;
+  color: #757575;
+  cursor: pointer;
+}
+
+.search__form_admin {
+  margin: 0 0 20px 25px;
+}
+
+.search__input_admin {
+  padding: 5px;
+}

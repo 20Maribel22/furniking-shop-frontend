@@ -1,0 +1,38 @@
+.job {
+  padding: 70px 135px 70px 135px;
+}
+
+.job__container {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #555555;
+}
+
+.job__title {
+  margin: 50px 0;
+}
+
+.job__text {
+  margin: 50px 0;
+}
+
+@media screen and (max-width: 990px) {
+  .job {
+    padding: 70px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .job {
+    padding: 35px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .job {
+    padding: 5px;
+  }
+}
