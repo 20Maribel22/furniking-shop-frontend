@@ -50,7 +50,7 @@ class CartApi {
 }
 
 export const cartApi = new CartApi({
-  baseUrl: "http://localhost:3001",
+  baseUrl: "https://express-furniking-shop-8f999c83c8fd.herokuapp.com",
   headers: {
     Authorization: "",
     "Content-Type": "application/json",
