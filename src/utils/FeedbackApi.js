@@ -37,7 +37,7 @@ class FeedbackApi {
 }
 
 export const feedbackApi = new FeedbackApi({
-  baseUrl: "https://express-furniking-shop-8f999c83c8fd.herokuapp.com",
+  baseUrl: "https://express-furniking-shop.onrender.com",
   headers: {
     Authorization: "",
     "Content-Type": "application/json",
