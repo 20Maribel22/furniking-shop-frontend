@@ -60,6 +60,7 @@ class Auth {
 
 export const auth = new Auth({
   baseUrl: "https://express-furniking-shop.onrender.com",
+  // baseUrl: "http://localhost:3001",
   headers: {
     Authorization: "",
     "Content-Type": "application/json",

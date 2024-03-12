@@ -10,7 +10,7 @@ function Layout({ openDrawer, totalPrice, isAuth }) {
     <>
       <div className="layout">
         <Header isAuth={isAuth} />
-        <SearchForm openDrawer={openDrawer} totalPrice={totalPrice} />
+        <SearchForm openDrawer={openDrawer} totalPrice={totalPrice} isAuth={isAuth} />
       </div>
       <Outlet />
       <Footer />

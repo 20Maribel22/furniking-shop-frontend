@@ -51,6 +51,7 @@ class CartApi {
 
 export const cartApi = new CartApi({
   baseUrl: "https://express-furniking-shop.onrender.com",
+   // baseUrl: "http://localhost:3001",
   headers: {
     Authorization: "",
     "Content-Type": "application/json",

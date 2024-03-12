@@ -26,7 +26,7 @@ function Profile({ handleLogout }) {
         setOrders(filteredOrders);
 
         if (filteredOrders.length === 0) {
-          setIsMessage("Please log in or place an order!");
+          setIsMessage("Please place an order!");
         } else {
           setIsMessage("");
         }

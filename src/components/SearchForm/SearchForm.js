@@ -10,7 +10,7 @@ import { AppContext } from "../../context";
 import { useContext } from "react";
 import { useEffect } from "react";
 
-function SearchForm({ totalPrice }) {
+function SearchForm({ totalPrice, isAuth }) {
   const { searchItems, setSearchItems } = useContext(AppContext);
   const location = useLocation();
 
@@ -32,7 +32,7 @@ function SearchForm({ totalPrice }) {
   return (
     <section className="search">
       <Link to="/">
-        <img className="logo" src={logo} alt="Logo" />
+        <img className="search__logo" src={logo} alt="Logo" />
       </Link>
       <form className="search__form" name="search">
         <div className="search__container">
@@ -77,9 +77,9 @@ function SearchForm({ totalPrice }) {
         <Link to="/notification" className="search__img">
           <img title="Notification" src={notification} alt="" />
         </Link>
-        <Link to="/auth/me" className="search__img">
+       {isAuth && <Link to="/auth/me" className="search__img">
           <img title="My account" src={avatar} alt="" />
-        </Link>
+        </Link>}
       </div>
     </section>
   );

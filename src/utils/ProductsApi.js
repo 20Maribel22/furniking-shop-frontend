@@ -233,7 +233,8 @@ class ProductsApi {
 }
 
 export const productsApi = new ProductsApi({
-  baseUrl: "https://express-furniking-shop.onrender.com",
+ baseUrl: "https://express-furniking-shop.onrender.com",
+  // baseUrl: "http://localhost:3001",
   headers: {
     Authorization: "",
     "Content-Type": "application/json",
